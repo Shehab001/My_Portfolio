@@ -1,0 +1,48 @@
+{
+  "name": "My_Portfolio",
+  "homepage": "https://github.com/Shehab001/My_Portfolio",
+  "version": "1.0.1",
+  "private": "true",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shehab001/My_Portfolio"
+  },
+  "keywords": [],
+  "author": "Md.Shehab Chowdhury",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shehab001/My_Portfolio/issues"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.0.1",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "react-scripts": "^2.1.3",
+    "vanilla-tilt": "^1.7.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
