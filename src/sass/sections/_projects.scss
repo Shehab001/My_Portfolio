@@ -8,7 +8,18 @@
     margin-top: 0;
     padding-top: 5rem;
   }
-
+  // .swiper-button-next,
+  // .swiper-button-prev {
+  //   @include respond(phone) {
+  //     margin-bottom: 55%;
+  //   }
+  // }
+  .load {
+    margin-bottom: 10%;
+    @include respond(phone) {
+      margin-bottom: 10%;
+    }
+  }
   .project-wrapper {
     margin-bottom: 15rem;
 

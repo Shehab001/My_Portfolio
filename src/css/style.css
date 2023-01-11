@@ -1,0 +1,89 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.slidder {
+  /* min-height: 100vh; */
+
+  /* align-items: center; */
+  justify-content: center;
+  background: #fff;
+}
+#projects .container {
+  max-width: 1120px;
+  width: 100%;
+}
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+}
+.card {
+  background: #fff;
+  border-radius: 8px;
+  width: 100% !important;
+  border: 0 !important;
+}
+
+.swiper-navBtn {
+  color: #000;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 18px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+.cent {
+  margin: auto 0;
+}
+.row {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.project-wrapper__image {
+  width: 90%;
+  margin: 0 auto;
+  opacity: 1 !important;
+}
+.gapp {
+  padding-top: 5%;
+}
+
+.load {
+  text-align: left;
+}
+
+/* #projects .project-wrapper {
+  margin-bottom: 0rem !important;
+} */
+.top {
+  margin: 45px 0;
+}
+
+/* form */
+.black {
+  color: #fff;
+}
+.form-control {
+  padding: 10px;
+  font-size: 15px;
+}
+.ttop {
+  margin-top: 50px;
+  cursor: pointer;
+}
+.pb {
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 991px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 55%;
+  }
+}

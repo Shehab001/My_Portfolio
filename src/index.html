@@ -18,24 +18,48 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-  
-    <link rel="stylesheet" href="styles.scss">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.scss" />
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
     <script
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("WehNcLX2SaPrdq4Yq");
+      })();
+    </script>
+
+    <!-- form -->
+    <link rel="stylesheet" href="/src/form/fonts/icomoon/style.css" />
   </head>
 
   <body>
-    <div id="top"></div>
-
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
-        <h1 class="hero-title load-hidden">
-          Hi, This is <span class="text-color-main">Shehab.</span>
+        <h1 id="title" class="hero-title load-hidden">
+          <!-- Hi, This is <span class="text-color-main">Shehab.</span>
           <br />
-          A MERN Stack Developer.
+          A MERN Stack Developer. -->
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -49,7 +73,7 @@
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
+        <h2 class="section-title load-hidden gapp">About me</h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
@@ -65,30 +89,14 @@
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
-              <p class="about-wrapper__info-text">
-                This is Md. Shehab Chowdhury.I live in Jatrabari,Dhaka.My
-                SSC,HSC and Bsc results are respectively 5,5 and 3.5.I have
-                completed my BSc in CSE from Daffodil International
-                University.Achieved 9th position in DIU
-                <a
-                  href="https://algo.codemarshal.org/contests/takeoff-fall18/standings"
-                  >Fall Take Off</a
-                >
-                programing contest in 2018.Currently I am learning and working
-                with React,NodeJS,Express,PostgreSQL, MongoDB.Also I have worked
-                with C,C++, and Python language and Swing framework of Java.
-                <a href="https://www.beecrowd.com.br/judge/en/profile/287036"
-                  >Beecrowd</a
-                >
-                is my problem solving platform.
-              </p>
+              <p id="me" class="about-wrapper__info-text"></p>
               <p class="about-wrapper__info-text"></p>
-              <span class="d-flex mt-3">
+              <span class="d-flex mt-5">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="assets/Resume.pdf"
                 >
                   View Resume
                 </a>
@@ -101,421 +109,1060 @@
     <!-- /END About Section -->
 
     <!-- **** Projects Section **** -->
+    <!-- **** Projects Section **** -->
+    <!-- **** Projects Section **** -->
+    <!-- **** Projects Section **** -->
+    <!-- **** Projects Section **** -->
+    <!-- **** Projects Section **** -->
+    <!-- **** Projects Section **** -->
+    <!-- **** Projects Section **** -->
+    <!-- **** Projects Section **** -->
+    <!-- **** Projects Section **** -->
+
     <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+      <h2 class="section-title dark-blue-text">My Projects</h2>
+      <div class="container swiper">
+        <div class="slide-container">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">Quantum Tech</h3>
+                    <div>
+                      <p class="mb-4">
+                        This is a travel agency website.Here user can see and
+                        give review about any listed place.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://used-pc-fd863.web.app/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://github.com/Shehab001/travelSite-clientSide-MERN"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project17.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
+            <div class="card swiper-slide">
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">Travo</h3>
+                    <div>
+                      <p class="mb-4">
+                        This is a travel agency website.Here user can see and
+                        give review about any listed place.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://travel-site-1b8e0.web.app/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://github.com/Shehab001/travelSite-clientSide-MERN"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project16.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
+            <div class="card swiper-slide">
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">Brins</h3>
+                    <div>
+                      <p class="mb-4">
+                        This is a website for buying course.User can select the
+                        course and purchase.But they have to be logged in first.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://used-pc-fd863.web.app/"
+                    >
+                      See Live
+                    </a>
 
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">
-                  Background Genarator
-                </h3>
-                <div>
-                  <p class="mb-4">
-                    From this you can play with color and which is fun. And also
-                    you can get the color code for your chosen color.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://shehab001.github.io/LinearBackground/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/Shehab001/LinearBackground"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.png"
-                    />
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://github.com/Shehab001/usedPc-clientSide-MERN"
+                    >
+                      Source Code
+                    </a>
                   </div>
-                </a>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project15.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
+            <div class="card swiper-slide">
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">QuickQuize</h3>
+                    <div>
+                      <p class="mb-4">
+                        This is a API based online quize platform where user can
+                        take a quize on a category.Toast will be shown for
+                        correct or incorrect answer.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://quickquize.netlify.app"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://github.com/Shehab001/Quick_Quize-React-"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project14.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
+            <div class="card swiper-slide">
+              <div class="project-wrapper">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-12 cent">
+                    <div class="load">
+                      <h3 class="project-wrapper__text-title">
+                        Background Genarator
+                      </h3>
+                      <div>
+                        <p class="mb-4">
+                          From this you can play with color and which is fun.
+                          And also you can get the color code for your chosen
+                          color.
+                        </p>
+                      </div>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        class="cta-btn cta-btn--hero"
+                        href="https://shehab001.github.io/LinearBackground/"
+                      >
+                        See Live
+                      </a>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        class="cta-btn text-color-main"
+                        href="https://github.com/Shehab001/LinearBackground"
+                      >
+                        Source Code
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-sm-12">
+                    <div class="project-wrapper__image load-hidden">
+                      <a rel="noreferrer" href="#" target="_blank">
+                        <div
+                          data-tilt
+                          data-tilt-max="8"
+                          data-tilt-glare="true"
+                          data-tilt-max-glare="0.4"
+                          class="thumbnail rounded js-tilt"
+                        >
+                          <img
+                            alt="Project Image"
+                            class="img-fluid"
+                            src="assets/project.png"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- /END Project -->
+            <div class="card swiper-slide">
+              <!-- Notice: each .row is a project -->
+              <div class="project-wrapper">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-12 cent">
+                    <div class="load">
+                      <h3 class="project-wrapper__text-title">WiX</h3>
+                      <div>
+                        <p class="mb-4">
+                          This is a single page website for taking order to
+                          build website. Here you can see the developer
+                          information.Their previous work and their
+                          qualification.
+                        </p>
+                      </div>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        class="cta-btn cta-btn--hero"
+                        href="https://shehab001.github.io/WiX/"
+                      >
+                        See Live
+                      </a>
+                      <a
+                        rel="noreferrer"
+                        target="_blank"
+                        class="cta-btn text-color-main"
+                        href="https://github.com/Shehab001/WiX"
+                      >
+                        Source Code
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-sm-12">
+                    <div class="project-wrapper__image load-hidden">
+                      <a rel="noreferrer" href="#!" target="_blank">
+                        <div
+                          data-tilt
+                          data-tilt-max="4"
+                          data-tilt-glare="true"
+                          data-tilt-max-glare="0.5"
+                          class="thumbnail rounded js-tilt"
+                        >
+                          <img
+                            alt="Project Image"
+                            class="img-fluid"
+                            src="assets/project1.png"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
 
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">WiX</h3>
-                <div>
-                  <p class="mb-4">
-                    This is a single page website for taking order to build
-                    website. Here you can see the developer information.Their
-                    previous work and their qualification.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://shehab001.github.io/WiX/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/Shehab001/WiX"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project1.png"
-                    />
+            <div class="card swiper-slide">
+              <!-- /END Project -->
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">Portfolio</h3>
+                    <div>
+                      <p class="mb-4">
+                        A portfolio using basic html and css.Only for beginner
+                        use.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://shehab001.github.io/Portfolio2"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://github.com/Shehab001/Portfolio2"
+                    >
+                      Source Code
+                    </a>
                   </div>
-                </a>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project4.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
               </div>
+              <!-- /END Project -->
             </div>
-          </div>
-          <!-- /END Project -->
+            <div class="card swiper-slide">
+              <!-- Notice: each .row is a project -->
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">FoodSite</h3>
+                    <div>
+                      <p class="mb-4">
+                        Here people can see the chef's qualification and his
+                        special item.Also the social status.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://shehab001.github.io/foodsite/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://github.com/Shehab001/foodsite"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project5.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
+            <div class="card swiper-slide">
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">
+                      Donation Website
+                    </h3>
+                    <div>
+                      <p class="mb-4">
+                        A donation website for the flood afffected people. So
+                        that they can rebuild themselves.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://shehab001.github.io/Donation_Website/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://github.com/Shehab001/Donation_Website"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project6.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
+            <div class="card swiper-slide">
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">Premier League</h3>
+                    <div>
+                      <p class="mb-4">
+                        A match schedule website for knowing the match time and
+                        date.Also people can see the player status and comments.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://github.com/Shehab001/Premier_League"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://shehab001.github.io/Premier_League/"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project7.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
+            <div class="card swiper-slide">
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">Robo Friends</h3>
+                    <div>
+                      <p class="mb-4">
+                        This is a API based single page fun website to search
+                        robot and its details.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://shehab001.github.io/robofriends/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://github.com/Shehab001/robofriends"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project3.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
+            <!-- recent -->
+            <!-- recent -->
+            <!-- recent -->
+            <!-- recent -->
 
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Simplefolio</h3>
-                <div>
-                  <p class="mb-4">A practised portfolio.(Not responsive)</p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://shehab001.github.io/portfolio/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/Shehab001/portfolio"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project2.png"
-                    />
+            <div class="card swiper-slide">
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">Pro Learn</h3>
+                    <div>
+                      <p class="mb-4">
+                        A single page responsive website by Tailwind CSS.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://pro-learn.netlify.app/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://github.com/Shehab001/Pro_Learn"
+                    >
+                      Source Code
+                    </a>
                   </div>
-                </a>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project9.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
+            <div class="card swiper-slide">
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">Transfer Site</h3>
+                    <div>
+                      <p class="mb-4">
+                        A single page application to choose player and
+                        expenses.Then calculate the total.A practised website
+                        for DOM manipulation.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://transfer-site-msc.netlify.app/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://github.com/programming-hero-web-course2/best-five-dom-assignment-Shehab001"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project10.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
+            <div class="card swiper-slide">
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">NewsCollection</h3>
+                    <div>
+                      <p class="mb-4">
+                        This is a API based single page website to fetch the
+                        news and show it to the page according to the news
+                        category.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://newscollection.netlify.app/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://github.com/Shehab001/robofriends"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project11.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
+            <div class="card swiper-slide">
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">Speed Typer</h3>
+                    <div>
+                      <p class="mb-4">
+                        A beautiful website to test the typing speed and save
+                        the results.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://speed-masterr.netlify.app/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://github.com/Shehab001/robofriends"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project12.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
+            <div class="card swiper-slide">
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 cent">
+                  <div class="load">
+                    <h3 class="project-wrapper__text-title">
+                      Ultra Sports Details
+                    </h3>
+                    <div>
+                      <p class="mb-4">
+                        A React web applicaton to get data from local storage &
+                        save data in local storage.
+                      </p>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--hero"
+                      href="https://react-simple-project.netlify.app/"
+                    >
+                      See Live
+                    </a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn text-color-main"
+                      href="https://github.com/Shehab001/robofriends"
+                    >
+                      Source Code
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                  <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                      <div
+                        data-tilt
+                        data-tilt-max="4"
+                        data-tilt-glare="true"
+                        data-tilt-max-glare="0.5"
+                        class="thumbnail rounded js-tilt"
+                      >
+                        <img
+                          alt="Project Image"
+                          class="img-fluid"
+                          src="assets/project13.png"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- /END Project -->
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="top">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          class="cta-btn cta-btn--hero"
+          href="/src/allproject.html"
+        >
+          See All
+        </a>
+      </div>
+    </section>
+    <section id="achievements">
+      <div class="container" style="padding-top: 70px; padding-bottom: 70px">
+        <h2 class="section-title load-hidden gapp">Achievements</h2>
+        <div class="row about-wrapper py-5">
+          <div class="col-md-4 col-sm-12">
+            <div
+              class="about-wrapper__image load-hidden"
+              data-tilt
+              data-tilt-max="4"
+              data-tilt-glare="true"
+              data-tilt-max-glare="0.5"
+              class="thumbnail rounded js-tilt"
+            >
+              <div class="card" style="width: 18rem">
+                <img src="assets/IMG_4049.png" class="card-img-top" alt="pic" />
+                <div class="card-body">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--hero"
+                    href="https://algo.codemarshal.org/contests/takeoff-fall18/standings"
+                  >
+                    Know More
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
-          <!-- Notice: each .row is a project -->
-          <!-- /END Project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Portfolio</h3>
-                <div>
-                  <p class="mb-4">
-                    A portfolio using basic html and css.Only for beginner use.
+          <div class="col-md-4 col-sm-12">
+            <div
+              class="about-wrapper__info load-hidden"
+              data-tilt
+              data-tilt-max="4"
+              data-tilt-glare="true"
+              data-tilt-max-glare="0.5"
+              class="thumbnail rounded js-tilt"
+            >
+              <div class="card" style="width: 18rem">
+                <img
+                  src="assets/certificate.png"
+                  class="card-img-top"
+                  alt="pic"
+                />
+                <div class="card-body">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--hero"
+                    href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_77879424134_._ad_535397245863_._kw__._de_c_._dm__._pl__._ti_dsa-1007766171312_._li_9074028_._pd__._&matchtype=&gclid=Cj0KCQiAtvSdBhD0ARIsAPf8oNkEqaREEuNJcH2JIuwsDgXi41NOhuUEVThP8Pcr0Ilk146TGHiN6P8aAkWAEALw_wcB"
+                  >
+                    Know More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-4 col-sm-12">
+            <div
+              class="about-wrapper__info load-hidden"
+              data-tilt
+              data-tilt-max="4"
+              data-tilt-glare="true"
+              data-tilt-max-glare="0.5"
+              class="thumbnail rounded js-tilt"
+            >
+              <div class="card" style="width: 18rem">
+                <img
+                  src="assets/project13.png"
+                  class="card-img-top"
+                  alt="pic"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
                   </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://shehab001.github.io/Portfolio2"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/Shehab001/Portfolio2"
-                >
-                  Source Code
-                </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project4.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">FoodSite</h3>
-                <div>
-                  <p class="mb-4">
-                    Here people can see the chef's qualification and his special
-                    item.Also the social status.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://shehab001.github.io/foodsite/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/Shehab001/foodsite"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project5.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Donation Website</h3>
-                <div>
-                  <p class="mb-4">
-                    A donation website for the flood afffected people. So that
-                    they can rebuild themselves.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://shehab001.github.io/Donation_Website/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/Shehab001/Donation_Website"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project6.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Premier League</h3>
-                <div>
-                  <p class="mb-4">
-                    A match schedule website for knowing the match time and
-                    date.Also people can see the player status and comments.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://github.com/Shehab001/Premier_League"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://shehab001.github.io/Premier_League/"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project7.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Robo Friends</h3>
-                <div>
-                  <p class="mb-4">
-                    This is a API based single page fun website to search robot
-                    and its details.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://shehab001.github.io/robofriends/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/Shehab001/robofriends"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project3.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
+          </div> -->
         </div>
       </div>
     </section>
+    <section id="blogs">
+      <div class="container py-5">
+        <h2 class="section-title load-hidden" style="padding-top: 2%">Blogs</h2>
+        <p id="blog-content" class="section-title load-hidden"></p>
+      </div>
+    </section>
+
     <!-- /END Projects Section -->
 
     <!-- **** Contact Section **** -->
+    <!-- **** Contact Section **** -->
+    <!-- **** Contact Section **** -->
+    <!-- **** Contact Section **** -->
+    <!-- **** Contact Section **** -->
+    <!-- **** Contact Section **** -->
+    <!-- **** Contact Section **** -->
+    <!-- **** Contact Section **** -->
+
     <section id="contact">
-      <div class="container">
+      <div class="content">
+        <h2 class="section-title">Contact</h2>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-10">
+              <div class="row justify-content-center">
+                <div class="col-md-6 hh">
+                  <h1 class="heading mb-4 black">Let's talk..</h1>
+
+                  <p>
+                    <img
+                      src="/src/form/images/undraw-contact.svg"
+                      alt="Image"
+                      class="img-fluid"
+                    />
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <form
+                    class="mb-5"
+                    method="post"
+                    id="contactForm"
+                    name="contactForm"
+                  >
+                    <div class="row">
+                      <div class="col-md-12 form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="name"
+                          id="name"
+                          placeholder="Your name"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          name="email"
+                          id="email"
+                          placeholder="Email"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-12 form-group">
+                        <textarea
+                          class="form-control"
+                          name="message"
+                          id="message"
+                          cols="30"
+                          rows="7"
+                          placeholder="Write your message"
+                          required
+                        ></textarea>
+                      </div>
+                    </div>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      class="cta-btn cta-btn--resume ttop"
+                      onclick="SendMail()"
+                      >Send Mail</a
+                    >
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
           <p class="contact-wrapper__text">
@@ -529,7 +1176,7 @@
             >Call to Action</a
           >
         </div>
-      </div>
+      </div> -->
     </section>
     <!-- /END Contact Section -->
 
@@ -579,5 +1226,60 @@
     <!-- /END Footer Section -->
 
     <script defer type="module" src="index.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+      var title = document.getElementById("title");
+      var me = document.getElementById("me");
+      var blog = document.getElementById("blog-content");
+      //console.log("hi");
+      var typewriter1 = new Typewriter(title, {
+        loop: true,
+        delay: 75,
+      });
+      var typewriter2 = new Typewriter(me, {
+        loop: false,
+        delay: 20,
+      });
+      var typewriter3 = new Typewriter(blog, {
+        loop: true,
+        delay: 75,
+      });
+
+      typewriter1
+        .pauseFor(1500)
+        .typeString("Hi,This is Shehab.")
+        .pauseFor(1000)
+        .typeString(
+          '<h1 style="color: #27ae60; font-size:36px; margin-top:20px;">A MERN Stack Web Developer.</h1>'
+        )
+        .pauseFor(1000)
+        .start();
+
+      typewriter2
+        .pauseFor(1500)
+        .typeString(
+          "This is Md. Shehab Chowdhury,a Software Engineer recently graduated from Daffodil International University. I am a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and I am passionate about problem solving."
+        )
+        .typeString(
+          '<a class="text-primary" href="https://www.beecrowd.com.br/judge/en/profile/287036">Beecrowd</a> is my problem solving platform.'
+        )
+        .pauseFor(1000)
+        .typeString(
+          '<h4 class="pt-5 fw-bold" style="font-size:20px;">Skills : HTML | CSS | Javascript | Bootstrap | Tailwind CSS | React | React Router | NodeJS | ExpressJS | MongoDB | Firebase Authentication | C Programming Language. </h1>'
+        )
+        .pauseFor(1000)
+        .typeString(
+          '<h4 class="pt-5 fw-bold" style="font-size:20px;">Familiar : MUI | Redux | NextJS | Typescript | Postgresql | Mysql | PSD | XD | Python | Java(Swing)</h1>'
+        )
+        .start();
+
+      typewriter3
+        .pauseFor(1500)
+        .typeString("Coming Soon...")
+        .pauseFor(1000)
+        .start();
+    </script>
+    <script src="scripts/swiper-bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
