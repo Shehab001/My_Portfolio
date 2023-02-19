@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
-    <title>Md. Shehab Chowdhury || MERN Stack Developer</title>
+    <title>Md. Shehab Chowdhury || Full Stack Developer</title>
 
     <meta name="keywords" content="[Shehab001], [Shehab], skill" />
 
     <meta
       name="MERN Stack Developer"
-      content="[Md. Shehab Chowdhury||MERN Stack Developer]"
+      content="[Md. Shehab Chowdhury||Full Stack Developer]"
     />
 
     <link
@@ -89,7 +89,7 @@
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
-              <p id="me" class="about-wrapper__info-text"></p>
+              <p id="me" class="about-wrapper__info-text text-start"></p>
               <p class="about-wrapper__info-text"></p>
               <span class="d-flex mt-5">
                 <a
@@ -1038,6 +1038,30 @@
               </div>
             </div>
           </div>
+          <div class="col-md-4 col-sm-12">
+            <div
+              class="about-wrapper__info load-hidden"
+              data-tilt
+              data-tilt-max="4"
+              data-tilt-glare="true"
+              data-tilt-max-glare="0.5"
+              class="thumbnail rounded js-tilt"
+            >
+              <div class="card" style="width: 18rem">
+                <img src="assets/phero.png" class="card-img-top" alt="pic" />
+                <div class="card-body">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--hero"
+                    href="https://www.programming-hero.com/"
+                  >
+                    Know More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <!-- <div class="col-md-4 col-sm-12">
             <div
               class="about-wrapper__info load-hidden"
@@ -1228,6 +1252,24 @@
     <script defer type="module" src="index.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script>
+      // // var skills = [
+      //   "HTML",
+      //   "CSS",
+      //   "Javascript",
+      //   "Bootstrap",
+      //   "TailwindCSS",
+      //   "Material-UI",
+      //   "React",
+      //   "React Router",
+      //   "Redux",
+      //   "NextJS",
+      //   "Typescript",
+      //   "NodeJS",
+      //   "ExpressJS",
+      //   "MongoDB",
+      //   "Firebase Authentication",
+      //   "C",
+      // ];
       var title = document.getElementById("title");
       var me = document.getElementById("me");
       var blog = document.getElementById("blog-content");
@@ -1238,7 +1280,7 @@
       });
       var typewriter2 = new Typewriter(me, {
         loop: false,
-        delay: 0,
+        delay: 40,
       });
       var typewriter3 = new Typewriter(blog, {
         loop: true,
@@ -1258,18 +1300,10 @@
       typewriter2
         .pauseFor(1500)
         .typeString(
-          "This is Md. Shehab Chowdhury,a Software Engineer recently graduated from Daffodil International University. I am a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and I am passionate about problem solving."
+          "This is Md. Shehab Chowdhury,a Software Engineer recently graduated from Daffodil International University. I am a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude."
         )
         .typeString(
-          '<a class="text-primary" href="https://www.beecrowd.com.br/judge/en/profile/287036">Beecrowd</a> is my problem solving platform.'
-        )
-        .pauseFor(1000)
-        .typeString(
-          '<h4 class="pt-5 fw-bold" style="font-size:20px;">Skills : HTML | CSS | Javascript | Bootstrap | Tailwind CSS | MUI | React | React Router | Redux | NextJS | Typescript | NodeJS | ExpressJS | MongoDB | Firebase Authentication | C Programming Language. </h1>'
-        )
-        .pauseFor(1000)
-        .typeString(
-          '<h4 class="pt-5 fw-bold" style="font-size:20px;">Familiar : Postgresql | Mysql | PSD | XD | Python | Java(Swing)</h1>'
+          '<div class="pt-5 fw-bold row gy-3 " style="font-size:16px;"><h1 style="font-size:20px; margin-left:-30px;">Skills</h1> </br><h1 class="col-lg-4 col-sm-6">• HTML</h1> <h1 class="col-lg-4 col-sm-6">• CSS</h1> <h1 class="col-sm-6 col-lg-4">• Bootstrap</h1><h1 class="col-sm-6 col-lg-4">• TailwindCSS</h1><h1 class="col-sm-6 col-lg-4">• Material-UI</h1><h1 class="col-sm-6 col-lg-4">• Javascript</h1><h1 class="col-sm-6 col-lg-4">• Typescript</h1><h1 class="col-sm-6 col-lg-4">• React</h1><h1 class="col-sm-6 col-lg-4">• React-Router</h1><h1 class="col-lg-4 col-sm-6">• Redux</h1><h1 class="col-sm-6 col-lg-4">• NextJS</h1><h1 class="col-sm-6 col-lg-4">• NodeJS</h1><h1 class="col-sm-6 col-lg-4">• ExpressJS</h1><h1 class="col-sm-6 col-lg-4">• MongoDB</h1><h1 class="col-sm-6 col-lg-4">• Firebase</h1></div>'
         )
         .start();
 
